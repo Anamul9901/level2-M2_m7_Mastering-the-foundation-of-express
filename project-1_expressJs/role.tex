@@ -1,0 +1,23 @@
+1: npm init
+2: npm install express --save
+3: npm i -D typescript
+4: tsc --init
+
+5: tsconfig.json file er
+rootDir e './src/' debo
+6: tsconfig.json file er
+outDir e './dist/' debo
+
+7: npm i -D @types/node
+8: npm i --save-dev @types/express
+
+9: tsc [convert ts to js file]
+10: node dist/app/server.js [for server run]
+
+---------auto run----------
+11: tsc -w [for auto convert ts to js file]
+
+12:for auto server update(localhost)
+step-1: npm i -D nodemon
+step-2: go package.json file and write "start:dev": "nodemon ./dist/app/server.js", this file under scripts
+step-3: npm run start:dev
